@@ -1,0 +1,56 @@
+.header{
+    box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    height: 5rem;
+
+    width: 100%;
+}
+
+.header-logo{
+    width: 8rem;
+    float: left;
+}
+
+.header-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.header-slide{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+}
+
+.header-slide span{
+   font-size: 2.5rem;
+    color: #5D0F29;
+}
+
+.ban{
+    width: 100%;
+    height: 20rem;
+    background: url("../img/banner背景图@3x.png") no-repeat;
+    background-size: 100%;
+    position: relative;
+
+}
+
+/*.banner img{*/
+    /*width: 100%;*/
+/*}*/
+
+.ban .buy-btn{
+    width: 4rem;
+    height: 1rem;
+    position: absolute;
+    top: 11.5rem;
+    left: 6.2rem;
+    z-index:1;
+}
+
+.ban .buy-btn img{
+    width: 100%;
+    height: 100%;
+}
+

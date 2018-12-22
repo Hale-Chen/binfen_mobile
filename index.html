@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" font-size="62.5%">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>缤纷谷</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <img src="img/brand.png">
+        </div>
+        <div class="header-slide" id="open-sb">
+            <span class="glyphicon glyphicon-align-center" ></span>
+        </div>
+    </div>
+    <section class="sidebar">
+        <div class="subNav subNav-brand">
+            <img src="img/brand.png">
+        </div>
+        <hr />
+        <div class="subNav active" ><h6>官网首页</h6></div>
+        <div class="subNav"><h6>产品介绍</h6></div>
+        <div class="subNav"><h6>成分介绍</h6></div>
+        <div class="subNav"><h6>品牌历程</h6></div>
+    </section>
+    <div class="ban">
+        <!--<img src="img/banner背景图@3x.png">-->
+        <div class="buy-btn">
+            <a href="#"><img src="img/立即购买按钮@3x.png"></a>
+        </div>
+    </div>
+    <div class="patent-div">
+        <div class="introduction">
+            <P>INTRODUCTION TO PATENTS</P>
+
+        </div>
+    </div>
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.simplesidebar.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script>
+    $( document ).ready(function() {
+        $( '.sidebar' ).simpleSidebar({
+            settings: {
+                opener: '#open-sb',
+                wrapper: '.wrapper',
+                animation: {
+                    duration: 500,
+                    easing: 'easeOutQuint'
+                }
+            },
+            sidebar: {
+                align: 'left',
+                width: 200,
+                closingLinks: 'a',
+            }
+        });
+    });
+    $(function(){
+        $(".subNav").click(function(){
+            // 修改数字控制速度， slideUp(500)控制卷起速度
+            $(this).next(".navContent").slideToggle(500);
+        })
+    })
+</script>
+</body>
+</html>
