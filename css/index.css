@@ -2,8 +2,17 @@
     box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.1);
     background: #ffffff;
     height: 5rem;
-
+    position: fixed;
     width: 100%;
+    z-index: 999;
+    top: 0;
+}
+
+.content{
+    position: fixed;
+    top: 5rem;
+    height: 100%;
+    overflow: auto;
 }
 
 .header-logo{
@@ -29,10 +38,11 @@
 
 .ban{
     width: 100%;
-    height: 20rem;
-    background: url("../img/banner背景图@3x.png") no-repeat;
+    height: 17rem;
+    background: url("../img/index/banner背景图@3x.png") no-repeat;
     background-size: 100%;
     position: relative;
+    /*margin-top: 5rem;*/
 
 }
 
@@ -44,13 +54,228 @@
     width: 4rem;
     height: 1rem;
     position: absolute;
-    top: 11.5rem;
-    left: 6.2rem;
-    z-index:1;
+    top: 61%;
+    left: 17%;
+}
+
+.ban .buy-btn a{
+    padding: 0;
+    margin: 0;
 }
 
 .ban .buy-btn img{
     width: 100%;
     height: 100%;
 }
+
+.patent-div{
+    width: 90%;
+    margin: 2rem 5%;
+
+    /*position: absolute;*/
+}
+
+.introduction img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.patent-div h3{
+    text-align: center;
+    margin: 1.2rem;
+    font-size: 1.3rem;
+    color: #666666;
+}
+
+.patents-img{
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.social-icon{
+    width: 25%;
+    float: left;
+    margin-top: 1.3rem;
+    /* padding-left: 4rem; */
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+.social-icon img{
+    width: 100%;
+}
+
+.huadong-icon{
+    width: 35%;
+    padding-left: 1.5rem;
+    float: left;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+.huadong-icon img{
+    width: 100%;
+}
+.sod-icon{
+    width: 25%;
+    float: left;
+    margin-top: 1.3rem;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+    /* margin-bottom: 3rem; */
+}
+
+.sod-icon img{
+    width: 100%;
+}
+
+.blackberry-div{
+    /*position: absolute;*/
+    /*margin-top: 50rem;*/
+    /*background: url("../img/关于黑莓背景@3x.png") no-repeat;*/
+    /*background-size: 100%;*/
+    /*width: 100%;*/
+    /*height: 17rem;*/
+    /*width: 90%;*/
+    margin: 2rem 0;
+    position: relative;
+
+}
+
+.blackberry{
+
+}
+
+.blackberry img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.blackberry-video-div{
+    background: url("../img/index/关于黑莓背景@3x.png") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 16rem;
+    margin-top: 2rem;
+}
+
+.blackberry-div h3{
+    text-align: center;
+    margin: 1.2rem;
+    font-size: 1.3rem;
+    color: #666666;
+}
+
+.aboutus-bg{
+    width: 100%;
+    height: 10rem;
+    background: #ffd4d1;
+    margin-top: 2rem;
+}
+
+.aboutus{
+    width: 90%;
+    margin-left: 5%;
+    height: 14rem;
+    background: #ffffff63;
+    transform: translate(0%, -50%);
+    /* margin-top: -10%; */
+}
+
+.aboutus-logo{
+    width: 40%;
+    /* height: 100%; */
+    /* margin-top: 5%; */
+    padding-top: 13%;
+    /* padding-left: 5%; */
+    margin-left: 5%;
+    float: left;
+    transform: translate(0%, -10%);
+}
+
+.aboutus-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.aboutus-text{
+    /* margin-left: 3rem; */
+    margin-top: 5%;
+    width: 48%;
+    float: right;
+    margin-right: 2%;
+}
+
+.aboutus-text h2{
+    font-size: 1.8rem;
+}
+.aboutus-text p{
+    font-size: 0.8rem;
+}
+.global-div{
+    width: 90%;
+    margin: 2rem 5% 5rem;
+}
+
+.global-div .div{
+    height: 1px;
+    width: 90%;
+}
+
+.global-div h3{
+    width: 100%;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: center;
+    float: left;
+    margin: 0.5rem 0;
+}
+
+.global-div .map{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.global-div .map img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background: #F0F0F0;
+    width: 100%;
+    position: relative;
+}
+
+.weixin{
+    position: absolute;
+    /* height: 32%; */
+    width: 100%;
+    margin-top: -1.5rem;
+}
+
+.weixin-detail{
+    width: 100%;
+    position: absolute;
+    margin-top: -14%;
+    display: none;
+}
+
+.weixin-detail img{
+    width: 8%;
+}
+
+.footer-text{
+    padding-top: 2rem;
+    font-size: 0.6rem;
+    line-height: 1rem;
+    /* justify-content: center; */
+    text-align: center;
+    color: #0f0f0f;
+    height: 10rem;
+}
+
+.footer-text a{
+    color: #0f0f0f;
+}
+
+
 
