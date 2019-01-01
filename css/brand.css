@@ -1,0 +1,268 @@
+.brand-banner{
+    width: 100%;
+}
+
+.brand-banner img{
+    width: 100%;
+}
+
+.europe{
+    background: url(../img/brand/europe.png);
+    background-size: 100%;
+    width: 100%;
+    height: 4.9rem;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.europe-text{
+    background: rgba(255,255,255,0.7) no-repeat center center;
+    width: 70%;
+    height: 4rem;
+    margin: 0 auto;
+    /* margin-top: 5rem; */
+    position: relative;
+    top: 0.5rem;
+}
+
+.europe-text p{
+    line-height: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0;
+
+}
+
+.europe-list{
+    width: 90%;
+    margin: 3rem 5% 3rem;
+}
+
+.europe-item-left{
+    width: 100%;
+    height: 14rem;
+    margin-bottom: 3rem;
+}
+
+.europe-item-left .europe-item-text{
+    float: left;
+    width: 96%;
+    height: 14rem;
+    z-index: 1;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.europe-item-left .europe-item-img{
+    float: right;
+    width: 50%;
+    height: 12rem;
+    z-index: 2;
+    position: absolute;
+    right: 1.5rem;
+    margin-top: -1rem;
+}
+
+.europe-item-left .europe-item-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.europe-item-left .year{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* padding-top: 1rem; */
+    position: absolute;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.europe-item-left .xila{
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.europe-item-left .main-text{
+    width: 35%;
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.europe-item-right{
+    width: 100%;
+    height: 14rem;
+    margin-bottom: 3rem;
+}
+
+.europe-item-right .europe-item-text{
+    float: right;
+    width: 96%;
+    height: 14rem;
+    z-index: 1;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.europe-item-right .europe-item-img{
+    float: left;
+    width: 50%;
+    height: 12rem;
+    z-index: 0;
+    position: absolute;
+    /* right: 1.5rem; */
+    margin-top: -1rem;
+}
+
+.europe-item-right .europe-item-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.europe-item-right .year{
+    font-size: 2rem;
+    margin-top: 1rem;
+    /* margin-right: 1rem; */
+    right: 3rem;
+    /* padding-top: 1rem; */
+    position: absolute;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.europe-item-right .xila{
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 2rem;
+    /* margin-left: 2rem; */
+    right: 4rem;
+}
+
+.europe-item-right .main-text{
+    width: 35%;
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 4rem;
+    /* margin-left: 2rem; */
+    right: 4rem;
+}
+
+.china{
+    background: url(../img/brand/china_bg.png) no-repeat center;
+    width: 100%;
+    height: 5rem;
+    background-size: 100%;
+    margin-bottom: 3rem;
+}
+
+.blackberry {
+    width: 3rem;
+    height: 4rem;
+    margin-top: 1rem;
+    float: left;
+    left: 40%;
+    position: absolute;
+}
+
+.blackberry img{
+    width: 100%;
+    height: 100%;
+}
+
+.china-text{
+    float: left;
+    /* width: 3rem; */
+    position: absolute;
+    /* font-size: 2rem; */
+    font-weight: bold;
+    /* right: 30%; */
+    left: 51%;
+    margin-top: 1rem;
+}
+
+.china-text p{
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+.china-list{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.china-list-item{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.item-img{
+    width: 90%;
+}
+
+.item-img img{
+    width: 100%;
+}
+
+.item-text{
+    width: 90%;
+}
+
+.item-text p{
+    margin: 0;
+    line-height: 2rem;
+}
+
+.china-year{
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+
+
+.shop{
+    width: 90%;
+    margin: 3rem 5%;
+}
+
+.shop-b{
+    height: 3rem;
+    margin-left: 40%;
+}
+
+.shop-b img{
+    height: 3rem;
+    width: 3rem;
+    float: left;
+}
+
+.title-text{
+    font-size: 2.5rem;
+    font-weight: bold;
+    float: left;
+    margin-left: -1rem;
+    margin-top: 1rem;
+}
+
+.shop-text{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.big{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.big img{
+    width: 100%;
+}
+
+
+

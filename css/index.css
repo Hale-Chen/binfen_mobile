@@ -39,7 +39,7 @@
 .ban{
     width: 100%;
     height: 17rem;
-    background: url("../img/index/banner背景图@3x.png") no-repeat;
+    background: url("../img/index/banner.png") no-repeat;
     background-size: 100%;
     position: relative;
     /*margin-top: 5rem;*/
@@ -130,7 +130,7 @@
 .blackberry-div{
     /*position: absolute;*/
     /*margin-top: 50rem;*/
-    /*background: url("../img/关于黑莓背景@3x.png") no-repeat;*/
+    /*background: url("../img/about_blackberry.png") no-repeat;*/
     /*background-size: 100%;*/
     /*width: 100%;*/
     /*height: 17rem;*/
@@ -150,7 +150,7 @@
 }
 
 .blackberry-video-div{
-    background: url("../img/index/关于黑莓背景@3x.png") no-repeat;
+    background: url("../img/index/about_blackberry.png") no-repeat;
     background-size: 100%;
     width: 100%;
     height: 16rem;
