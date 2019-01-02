@@ -15,6 +15,20 @@
     overflow: auto;
 }
 
+.p1{
+    font-size: 1rem;
+    font-style: italic;
+    color: #5D0F29;
+    text-align: center;
+}
+
+.p2{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #5D0F29;
+    text-align: center;
+}
+
 .header-logo{
     width: 8rem;
     float: left;

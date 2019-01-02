@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>缤纷谷</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/component.css">
+</head>
+<body>
+<header class="header">
+    <div class="header-logo">
+        <img src="img/index/brand.png">
+    </div>
+    <div class="header-slide" id="open-sb">
+        <span class="glyphicon glyphicon-align-center" ></span>
+    </div>
+</header>
+<section class="sidebar">
+    <div class="subNav subNav-brand">
+        <img src="img/index/brand.png">
+    </div>
+    <hr />
+    <a href="index.html"><div class="subNav " ><h6>官网首页</h6></div></a>
+    <a href="production.html"><div class="subNav"><h6>产品介绍</h6></div></a>
+    <div class="subNav active"><h6>成分介绍</h6></div>
+    <a href="history.html"><div class="subNav"><h6>品牌历程</h6></div></a>
+</section>
+<div class="content">
+    <div class="component-div">
+        <img src="img/production/banner背景图@3x.png">
+    </div>
+
+    <div class="article-div">
+        <div class="article-text">
+            <h2>缤纷谷原材料相关文献</h2>
+        </div>
+    </div>
+    <footer>
+        <div class="weixin-detail" align="center" >
+            <img src="img/index/黑莓公众号@3x.png">
+        </div>
+        <div class="weixin" align="center">
+            <a><img src="img/index/微信扁平logo@3x.png"></a>
+
+        </div>
+        <div class="footer-text">
+            <a>网站地图</a>|<a>联系我们</a>|<a>使用条款</a>|<a>隐私政策</a>
+        </div>
+    </footer>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.simplesidebar.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script>
+    $( document ).ready(function() {
+        $( '.sidebar' ).simpleSidebar({
+            settings: {
+                opener: '#open-sb',
+                wrapper: '.wrapper',
+                animation: {
+                    duration: 500,
+                    easing: 'easeOutQuint'
+                }
+            },
+            sidebar: {
+                align: 'left',
+                width: 200,
+                closingLinks: 'a',
+            }
+        });
+    });
+    $(function(){
+        $(".subNav").click(function(){
+            // 修改数字控制速度， slideUp(500)控制卷起速度
+            $(this).next(".navContent").slideToggle(500);
+        })
+    })
+    $(".weixin a").on("click",function () {
+        var detail = $(".weixin-detail");
+        var display = detail.css("display");
+        if(display == "none"){
+            detail.css("display","block");
+        }else {
+            detail.css("display","none");
+        }
+    });
+</script>
+</body>
+</html>
